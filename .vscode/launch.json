@@ -9,9 +9,9 @@
     },
     {
       "type": "ruby_lsp",
-      "name": "Rails test (current file)",
+      "name": "rspec (current file)",
       "request": "launch",
-      "program": "bin/rails test ${file}"
+      "program": "bin/rails rspec ${file}"
     }
   ]
 }
