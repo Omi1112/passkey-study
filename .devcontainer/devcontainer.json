@@ -1,0 +1,24 @@
+{
+  "name": "passkey-study (Rails + SQLite)",
+  "image": "mcr.microsoft.com/devcontainers/ruby:4.0-trixie",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers-extra/features/apt-get-packages:1": {
+      "packages": "sqlite3,libsqlite3-dev,libvips,pkg-config"
+    }
+  },
+  "forwardPorts": [
+    3000
+  ],
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Shopify.ruby-lsp",
+        "qwtel.sqlite-viewer",
+        "Google.google-antigravity"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}
