@@ -16,7 +16,8 @@
       "extensions": [
         "Shopify.ruby-lsp",
         "qwtel.sqlite-viewer",
-        "Google.google-antigravity"
+        "Google.google-antigravity",
+        "eamodio.gitlens"
       ]
     }
   },
